@@ -17,5 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
   }
 }
