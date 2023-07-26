@@ -11858,11 +11858,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 1.2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 .menu li {
   padding: 0 0.7rem;
+}
+.menu li a {
+  color: #fff;
+  font-weight: 500;
+  font-size: large;
 }
 
 /*# sourceMappingURL=style.css.map */
