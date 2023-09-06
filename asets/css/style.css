@@ -11920,6 +11920,9 @@ textarea.form-control-lg {
 
 .intro-section {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  padding: 10rem 0 0 0;
+  height: 100%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
