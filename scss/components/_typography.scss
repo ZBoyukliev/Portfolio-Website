@@ -7,12 +7,11 @@
     &--intro {
         display: inline-block;
         font-weight: 700;
-        color: $white;
     };
 
     &--description {
       font-size: 1.25rem;
       display: block;
-      color: $white;
+      margin-top: 1.2rem;
     }
 }
