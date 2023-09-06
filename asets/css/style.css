@@ -11900,10 +11900,12 @@ textarea.form-control-lg {
 .display-2--intro {
   display: inline-block;
   font-weight: 700;
+  color: #fff;
 }
 .display-2--description {
   font-size: 1.25rem;
   display: block;
+  color: #fff;
 }
 
 .menu {
