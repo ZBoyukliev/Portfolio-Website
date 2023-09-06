@@ -11918,4 +11918,8 @@ textarea.form-control-lg {
   font-size: large;
 }
 
+.intro-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
 /*# sourceMappingURL=style.css.map */
