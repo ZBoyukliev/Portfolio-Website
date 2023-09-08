@@ -11904,9 +11904,10 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .display-2--description {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   display: block;
   margin-top: 1.2rem;
+  text-transform: none;
 }
 
 .menu {
