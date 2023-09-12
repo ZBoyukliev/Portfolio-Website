@@ -11858,6 +11858,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.9475rem 4.275rem 0.9475rem 1.15rem;
@@ -11945,6 +11953,7 @@ textarea.form-control-lg {
   height: 6rem;
   border: 0.55rem solid #fff;
   border-radius: 50%;
+  animation: pulse-border 1s linear infinite;
 }
 
 /*# sourceMappingURL=style.css.map */
