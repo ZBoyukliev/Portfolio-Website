@@ -31,13 +31,16 @@
   width: 10rem;
   height: 0.1rem;
   display: block;
+  margin: 0 auto;
   background-color: $primary;
 }
 
 .heading-line::after {
   content: "";
-  width: 10rem;
-  height: 0.1rem;
+  width: 2rem;
+  height: 0.2rem;
+  padding-top: 0.5rem;
   display: block;
+  margin: 0 auto;
   background-color: $primary;
 }
