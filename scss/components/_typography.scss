@@ -23,3 +23,21 @@
     }
   }
 }
+
+// HEADING LINE 
+
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: $primary;
+}
+
+.heading-line::after {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: $primary;
+}
