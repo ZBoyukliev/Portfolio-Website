@@ -12023,6 +12023,11 @@ textarea.form-control-lg {
 }
 .services__content {
   padding: 1rem;
+  margin-top: 1.5rem;
+}
+.services__content .icon {
+  font-size: 2.5rem;
+  color: #9926f0;
 }
 
 /*# sourceMappingURL=style.css.map */
