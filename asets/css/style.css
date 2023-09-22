@@ -12017,4 +12017,12 @@ textarea.form-control-lg {
   filter: grayscale(120);
 }
 
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
