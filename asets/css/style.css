@@ -12033,7 +12033,12 @@ textarea.form-control-lg {
 }
 .services__content {
   padding: 1rem;
-  margin-top: 5rem;
+  margin-top: 0;
+}
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
 }
 .services__content .icon {
   font-size: 2.5rem;
