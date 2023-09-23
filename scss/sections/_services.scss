@@ -8,6 +8,13 @@
         padding: 1rem;
         margin-top: 0;
 
+        p {
+            font-size: 0.8rem;
+            @include media-breakpoint-up(lg) {
+                font-size: 1rem;
+            }
+        }
+
         @include media-breakpoint-up(lg) {
             margin-top: 5rem;
         }
