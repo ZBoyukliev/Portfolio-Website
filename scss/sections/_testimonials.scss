@@ -30,7 +30,9 @@
         left: 50%;
         transform: translate(-50%, -50%);
         img {
-            // border-radius: 50%;
+           border: 0.325rem solid rgba($primary, 0.7);
+           width: 6rem;
+           height: 6rem;
         }
     }
 
