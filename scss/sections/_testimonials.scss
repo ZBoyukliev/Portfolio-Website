@@ -5,4 +5,23 @@
     position: relative;
     padding: 0;
     @include gradient;
+
+    &__card {
+        background-color: rgba($white, 0.8);
+        padding: 2rem 1.25rem;
+        border-radius: 0.625rem;
+    }
+
+    &__picture {
+        max-width: 20%;
+        min-height: 20%;
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    &__name {
+
+    }
+
 }
