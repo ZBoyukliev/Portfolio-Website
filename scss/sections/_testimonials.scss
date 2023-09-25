@@ -37,7 +37,12 @@
     }
 
     &__name {
-
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: 500;
+        color: $white;
+        font-size: 1.25rem;
     }
 
 }

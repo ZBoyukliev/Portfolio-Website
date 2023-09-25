@@ -12097,5 +12097,13 @@ textarea.form-control-lg {
   width: 6rem;
   height: 6rem;
 }
+.testimonials__name {
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.25rem;
+}
 
 /*# sourceMappingURL=style.css.map */
