@@ -10,13 +10,27 @@
         background-color: rgba($white, 0.8);
         padding: 2rem 1.25rem;
         border-radius: 0.625rem;
+        height: auto;
+        text-align: center;
+        i {
+            font-size: 1.5rem;
+            color: rgba($primary, 0.7);
+        }
+        .rating {
+            i {
+                font-size: 1.2rem;
+            }
+        }
     }
 
     &__picture {
-        max-width: 20%;
-        min-height: 20%;
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
         img {
-            border-radius: 50%;
+            // border-radius: 50%;
         }
     }
 

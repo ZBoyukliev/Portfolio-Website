@@ -12075,13 +12075,22 @@ textarea.form-control-lg {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2rem 1.25rem;
   border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.testimonials__card i {
+  font-size: 1.5rem;
+  color: rgba(153, 38, 240, 0.7);
+}
+.testimonials__card .rating i {
+  font-size: 1.2rem;
 }
 .testimonials__picture {
-  max-width: 20%;
-  min-height: 20%;
-}
-.testimonials__picture img {
-  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */
