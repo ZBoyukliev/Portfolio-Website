@@ -12,10 +12,12 @@
         border-radius: 0.625rem;
         height: auto;
         text-align: center;
+
         i {
             font-size: 1.5rem;
             color: rgba($primary, 0.7);
         }
+
         .rating {
             i {
                 font-size: 1.2rem;
@@ -29,10 +31,11 @@
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
+
         img {
-           border: 0.325rem solid rgba($primary, 0.7);
-           width: 6rem;
-           height: 6rem;
+            border: 0.325rem solid rgba($primary, 0.7);
+            width: 6rem;
+            height: 6rem;
         }
     }
 
@@ -43,6 +46,7 @@
         font-weight: 500;
         color: $white;
         font-size: 1.25rem;
+
         h3 {
             padding-top: 0.8rem;
             text-transform: capitalize;
