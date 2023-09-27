@@ -12166,4 +12166,9 @@ textarea.form-control-lg {
   transition-property: all;
 }
 
+.get-started {
+  padding: 4rem 0;
+  background-color: #e9ecef;
+}
+
 /*# sourceMappingURL=style.css.map */
