@@ -11970,6 +11970,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
