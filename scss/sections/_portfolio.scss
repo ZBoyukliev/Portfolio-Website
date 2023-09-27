@@ -13,5 +13,35 @@
     position: relative;
     width: 100%;
     height: 18.5rem;
-    
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfolio-info {
+        background-color: rgba( $primary, 0.75);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        .caption {
+            text-align: center;
+            color: $white;
+            @include absoluteCenter;
+
+            h4 {
+                text-transform: uppercase;
+            }
+        }
+    }
+    &:hover {
+        .portfolio-info {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
 }
