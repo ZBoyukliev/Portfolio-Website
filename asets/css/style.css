@@ -12139,6 +12139,7 @@ textarea.form-control-lg {
   height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
   opacity: 0;
 }
 .portfolio-box .portfolio-info .caption {
@@ -12151,10 +12152,16 @@ textarea.form-control-lg {
 }
 .portfolio-box .portfolio-info .caption h4 {
   text-transform: uppercase;
+  display: block;
 }
 .portfolio-box:hover .portfolio-info {
   opacity: 1;
   cursor: pointer;
+  transition-duration: 1000ms;
+  transition-property: all;
+}
+.portfolio-box:hover img {
+  transform: scale(1.2);
   transition-duration: 1000ms;
   transition-property: all;
 }

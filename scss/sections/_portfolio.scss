@@ -28,6 +28,7 @@
         height: 100%;
         position: absolute;
         top: 0;
+        left: 0;
         opacity: 0;
         .caption {
             text-align: center;
@@ -36,6 +37,7 @@
 
             h4 {
                 text-transform: uppercase;
+                display: block;
             }
         }
     }
@@ -44,6 +46,12 @@
             opacity: 1;
             cursor: pointer;
             @include transitionProperty;
+        }
+
+        img {
+            transform: scale(1.2);
+            @include transitionProperty;
+
         }
     }
 }
