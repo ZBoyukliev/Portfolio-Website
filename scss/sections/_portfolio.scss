@@ -43,6 +43,7 @@
         .portfolio-info {
             opacity: 1;
             cursor: pointer;
+            @include transitionProperty;
         }
     }
 }
