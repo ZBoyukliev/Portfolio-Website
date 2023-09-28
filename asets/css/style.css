@@ -12193,4 +12193,13 @@ textarea.form-control-lg {
   font-size: 1.2rem;
 }
 
+.form {
+  padding: 3rem;
+}
+.form button {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=style.css.map */
