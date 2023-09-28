@@ -12175,4 +12175,14 @@ textarea.form-control-lg {
   background-color: #e9ecef;
 }
 
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
