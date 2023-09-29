@@ -12202,4 +12202,9 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
 /*# sourceMappingURL=style.css.map */
