@@ -12210,5 +12210,9 @@ textarea.form-control-lg {
 .contact-box {
   position: relative;
 }
+.contact-box__icon {
+  width: 4rem;
+  stroke: #9926f0;
+}
 
 /*# sourceMappingURL=style.css.map */

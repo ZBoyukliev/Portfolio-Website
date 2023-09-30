@@ -10,7 +10,8 @@
    position: relative;
 
    &__icon {
-
+      width: 4rem;
+      stroke: $primary;
    }
 
    &__info {
@@ -20,7 +21,7 @@
       }
 
       &--subtitle {
-         
+
       }
    }
  }
