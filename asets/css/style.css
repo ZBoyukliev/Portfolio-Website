@@ -12213,6 +12213,7 @@ textarea.form-control-lg {
 .contact-box__icon {
   width: 2rem;
   stroke: #9926f0;
+  padding-top: 0.2rem;
 }
 @media (min-width: 576px) {
   .contact-box__icon {

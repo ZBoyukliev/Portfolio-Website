@@ -12,6 +12,7 @@
     &__icon {
        width: 2rem;
        stroke: $primary;
+       padding-top: 0.2rem;
 
        @include media-breakpoint-up(sm) {
           width: 4rem;
