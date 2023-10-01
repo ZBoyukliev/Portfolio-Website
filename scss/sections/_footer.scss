@@ -7,27 +7,39 @@
  }
 
  .contact-box {
-   position: relative;
+    position: relative;
 
-   &__icon {
-      width: 4rem;
-      stroke: $primary;
-   }
+    &__icon {
+       width: 2rem;
+       stroke: $primary;
 
-   &__info {
-      padding: 0.4rem;
-      font-weight: 600;
+       @include media-breakpoint-up(sm) {
+          width: 4rem;
+       }
+    }
 
-      &--title {
-         color: $white;
-         text-decoration: none;
-         font-size: 1.2rem;
-      }
+    &__info {
+       padding: 0.4rem;
+       font-weight: 600;
 
-      &--subtitle {
-         color: $gray-600;
-         text-decoration: none;
-         font-size: 1rem;
-      }
-   }
+       &--title {
+          color: $white;
+          text-decoration: none;
+          font-size: 1rem;
+
+          @include media-breakpoint-up(sm) {
+             font-size: 1.2rem;
+          }
+       }
+
+       &--subtitle {
+          color: $gray-600;
+          text-decoration: none;
+          font-size: 0.8rem;
+
+          @include media-breakpoint-up(sm) {
+             font-size: 1rem;
+          }
+       }
+    }
  }
