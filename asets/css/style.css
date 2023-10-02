@@ -12258,4 +12258,16 @@ textarea.form-control-lg {
   }
 }
 
+.campany-list {
+  display: block;
+  position: relative;
+}
+.campany-list li {
+  margin-bottom: 0.5rem;
+}
+.campany-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
