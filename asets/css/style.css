@@ -12252,6 +12252,9 @@ textarea.form-control-lg {
   font-size: 1rem;
   margin-left: 1rem;
 }
+.footer-sm a i:hover {
+  color: #9926f0;
+}
 @media (min-width: 576px) {
   .footer-sm a i {
     font-size: 1.6rem;
@@ -12268,6 +12271,9 @@ textarea.form-control-lg {
 .campany-list li a {
   color: #fff;
   text-decoration: none;
+}
+.campany-list li a:hover {
+  color: #9926f0;
 }
 
 /*# sourceMappingURL=style.css.map */
