@@ -12279,5 +12279,16 @@ textarea.form-control-lg {
 .footer-bottom {
   background-color: #000;
 }
+.footer-bottom__copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom__copyright a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom__copyright a:hover {
+  color: #9926f0;
+}
 
 /*# sourceMappingURL=style.css.map */
