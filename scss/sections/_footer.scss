@@ -101,3 +101,19 @@
       }
    }
  }
+
+ .back-to-top {
+   position: fixed;
+   width: 3rem;
+   height: 3rem;
+   right: 1.875rem;
+   bottom: 1.875rem;
+   z-index: 100;
+   background-color: $primary;
+   color: $white;
+
+   i {
+      font-size: 1.3rem;
+      @include absoluteCenter;
+   }
+ }
