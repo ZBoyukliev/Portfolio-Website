@@ -12037,6 +12037,7 @@ textarea.form-control-lg {
 }
 .campanies__logo-box img:hover {
   filter: grayscale(120);
+  cursor: pointer;
 }
 
 .services {
