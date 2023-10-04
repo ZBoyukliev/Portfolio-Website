@@ -12118,6 +12118,10 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.accordion-button {
+  font-size: 1.4rem;
+}
+
 .portfolio {
   padding: 4rem 0;
 }
