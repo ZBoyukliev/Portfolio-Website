@@ -72,13 +72,12 @@
 
    li {
       margin-bottom: 0.5rem;
-      // text-decoration: none;
 
       a {
          color: $white;
          text-decoration: none;
          &:hover {
-            color: $primary;
+           color: $primary;
          }
       }
    }
